@@ -1,26 +1,3 @@
-<?php
-session_start();
-
-if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
-        #code here ...
-    } else {
-        echo "Access denied...";
-        header('Location: login.php');
-    }
-
-    $now = time();
-
-    if ($now > $_SESSION['expire']) {
-        session_destroy();
-
-        echo "<script> alert('Your session has expired, please log back in...'); </script>";
-
-        header('Location: login.php');
-
-        exit();
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
