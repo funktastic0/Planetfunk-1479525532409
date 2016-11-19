@@ -50,7 +50,7 @@
               <option value="Habitacion">Habitacion</option>
             </select>
           </td>
-          <td>
+          <td colspan=2>
             <input type="text" name="name">
           </td>
           <tr>
