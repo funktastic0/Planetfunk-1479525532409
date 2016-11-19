@@ -40,15 +40,18 @@
       <form action="consult_submit.php" method="POST">
       <table border=solid black collapse 1px>
         <tr>
-          <th colspan=4>Search for</th>
-          <td colspan=3>
+          <th colspan=3>Search for</th>
+          <td colspan=2>
             <select name="room">
               <option value="null">---Select an option---</option>
-              <option value="Fecha">Room1</option>
-              <option value="Empleado">Room2</option>
-              <option value="Producto">Room3</option>
-              <option value="Habitacion">Room4</option>
+              <option value="Fecha">Fecha</option>
+              <option value="Empleado">Empleado</option>
+              <option value="Producto">Producto</option>
+              <option value="Habitacion">Habitacion</option>
             </select>
+          </td>
+          <td>
+            <input type="text" name="name">
           </td>
           <tr>
             <th colspan=7><input type="submit" value="Buscar"></th>
