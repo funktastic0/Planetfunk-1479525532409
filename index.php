@@ -6,16 +6,37 @@
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	<table>
-		<tr>
-			<td style='width: 30%;'>
-				<img class = 'newappIcon' src='images/newapp-icon.png'>
-			</td>
-			<td>
-				<h1 id = "message"><?php echo "Hello World!"; ?></h1>
-				<p class='description'></p> Thanks for creating a <span class="blue">PHP Starter Application</span>.
-			</td>
-		</tr>
-	</table>
+	<div>
+    <section>
+      <header>
+        <h1>Hotel San Jose</h1>
+        <h2>The Pleasure of Sleeping Well</h2>
+      </header>
+    </section>
+
+    <aside class="sidebar" role="complementary">
+      <div class="wrapper">
+        <div class="design-archives" id="design-archives">
+          <h3 class="archives">Archives:</h3>
+          <nav role="navigation">
+            <ul>
+              <li class="next">
+                <a href="login.php">Login<span class="indicator">&rsaquo;</span></a>
+              </li>
+              <li class="previous">
+                <a href="user_dashboard.php"><span class="indicator">&lsaquo;</span>Home</a>
+              </li>
+              <li class="viewall">
+                <a href="room.php" title="View all rooms available.">View All Rooms</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </aside>
+
+
+
+  </div>
 </body>
 </html>
