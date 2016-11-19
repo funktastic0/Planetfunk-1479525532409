@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PHP Starter Application</title>
+	<title>Hotel San José: The Pleasure of Sleeping Well.</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" media="screen" href="css/main.css" />
+  <link rel="icon" type="imamge/png" href="images/kevin.jpg" />
 </head>
 <body>
 	<div>
